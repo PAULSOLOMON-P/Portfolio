@@ -1,0 +1,80 @@
+main{
+  height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 15px;
+  line-height: 50px;
+}
+
+.heading p {
+  font-family: roboto, sans-serif;
+  font-size: 15px;
+  color: #777777;
+  text-align: center;
+}
+
+section{
+  padding: 50px;
+  margin-top: 35px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card{
+  padding: 10px 30px;
+}
+
+picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+picture img{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.details h2{
+  text-align: center;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 30px;
+}
+.details p{
+  color: #777777;
+  font-family: roboto;
+  text-align: center;
+  text-align: center;
+
+}
+
+section::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+@media (max-width:1024px) {
+  section{
+    padding: 30px 100px ;
+  }
+}
+
+
+

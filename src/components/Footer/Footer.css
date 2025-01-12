@@ -1,0 +1,40 @@
+.footer{
+    height: 30vh;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-img img{
+    height: 50px;
+    margin-top: 45px;
+}
+
+.footer-container h1{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.footer-links i:hover{
+    color: #5d3fd3;
+    transition: 0.3s all ;
+}
+
+
+
